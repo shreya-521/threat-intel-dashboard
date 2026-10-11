@@ -1,10 +1,6 @@
-# 🕵️ Dark Web & Threat Intelligence Tracker
+#  Dark Web & Threat Intelligence Tracker
 
-![GitHub repo size](https://img.shields.io/github/repo-size/shreya-521/threat-intel-dashboard)
-![GitHub last commit](https://img.shields.io/github/last-commit/shreya-521/threat-intel-dashboard)
-![License](https://img.shields.io/badge/license-MIT-blue)
-![SQL](https://img.shields.io/badge/SQL-MySQL-orange)
-![BI](https://img.shields.io/badge/BI-Power%20BI-yellow)
+
 
 > A **Cybersecurity Analytics Dashboard** built with MySQL and Power BI that tracks Indicators of Compromise (IOCs), APT threat actor profiles, data breaches, attack campaigns, and dark web activity — all using **publicly available threat intelligence data**.
 
@@ -14,7 +10,7 @@
 
 This project simulates a real-world **Threat Intelligence Platform (TIP)** used by Security Operations Center (SOC) analysts. It aggregates threat data from public sources like MITRE ATT&CK, CISA, and AlienVault OTX into a normalized MySQL database, then visualizes it in a 4-page interactive Power BI dashboard.
 
-### ✅ Key Highlights
+### Key Highlights
 - **No dark web access required** — all data is from public threat intel feeds
 - Tracks **8 known APT groups** (APT28, Lazarus Group, REvil, DarkSide, etc.)
 - Monitors **200+ IOCs** across IPs, domains, file hashes, URLs, and CVEs
@@ -23,7 +19,7 @@ This project simulates a real-world **Threat Intelligence Platform (TIP)** used 
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -35,7 +31,7 @@ This project simulates a real-world **Threat Intelligence Platform (TIP)** used 
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 ![ER Diagram](diagrams/er_diagram.jpg)
 
@@ -52,7 +48,7 @@ This project simulates a real-world **Threat Intelligence Platform (TIP)** used 
 
 ---
 
-## 📊 Dashboard Pages
+##  Dashboard Pages
 
 ### Page 1 — 🌍 Threat Landscape Overview
 - KPI Cards: Total IOCs, Active Campaigns, Nation-State Actors, Records Breached
@@ -60,19 +56,19 @@ This project simulates a real-world **Threat Intelligence Platform (TIP)** used 
 - Donut Chart: IOC type distribution
 - Bar Chart: Top 5 most active threat actors by IOC count
 
-### Page 2 — 🎯 IOC Intelligence Center
+### Page 2 —  IOC Intelligence Center
 - Line Chart: Monthly IOC detection trend
 - Alert Table: Active Critical/High severity IOCs
 - Heatmap: IOC type vs Severity matrix
 - Gauge: Average confidence score
 
-### Page 3 — 💥 Campaigns & Breaches
+### Page 3 —  Campaigns & Breaches
 - Timeline: Campaign activity (Gantt-style)
 - Ranked Table: Top 10 breaches by records exposed
 - Pie Chart: Campaign status (Active / Completed / Dormant)
 - Scatter Plot: Breach size vs Days to discover
 
-### Page 4 — 🕵️ Dark Web Monitor
+### Page 4 —  Dark Web Monitor
 - Area Chart: Dark web mentions over time
 - Breakdown: Mention type analysis (Credential Sale, Data Sale, etc.)
 - Sector Analysis: Most targeted industries on dark web
@@ -80,7 +76,7 @@ This project simulates a real-world **Threat Intelligence Platform (TIP)** used 
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Prerequisites
 - MySQL 8.0+
@@ -160,11 +156,6 @@ threat-intel-dashboard/
 
 This project uses **only publicly available data** from legitimate cybersecurity research sources. No actual dark web access, illegal data, or real personal information was used. This is purely an educational project demonstrating data analytics skills in a cybersecurity context.
 
----
-
-## 👩‍💻 Author
-
-**Shreya** — [GitHub](https://github.com/shreya-521)
 
 ---
 
